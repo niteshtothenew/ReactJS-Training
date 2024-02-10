@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+#clock {
+    font-size: 48px;
+    margin-top: 50px;
+}
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+}
