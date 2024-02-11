@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Cafe</title>
+    <link rel="stylesheet" href="coffee.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sunrise Cafe</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sunrise Cafe, your go-to place for delicious coffee and pastries. We are passionate about providing
+            high-quality, freshly brewed coffee in a cozy atmosphere.</p>
+        <img src="cafe.jpg" alt="Cafe Interior">
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Espresso</td>
+                <td>Strong coffee brewed by forcing hot water under pressure through finely-ground coffee beans.</td>
+                <td>$2.50</td>
+            </tr>
+            <tr>
+                <td>Cappuccino</td>
+                <td>Espresso mixed with hot milk, milk foam, and steamed milk foam.</td>
+                <td>$3.50</td>
+            </tr>
+            <tr>
+                <td>Mocha</td>
+                <td>Espresso mixed with hot milk and chocolate syrup, topped with whipped cream.</td>
+                <td>$4.00</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>We are located at:</p>
+        <address>
+            123 Main Street<br>
+            Cityville, State<br>
+            Country
+        </address>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sunrise Cafe</p>
+    </footer>
+</body>
+
+</html>
